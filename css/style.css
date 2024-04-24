@@ -1,0 +1,125 @@
+/* General styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+@font-face {
+    font-family: 'lexen deca';
+    src: url(../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'big shoulders display';
+    src: url(../fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'lexen deca', Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'big shoulders display', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    /* height: 100vh; */
+    padding: 3em;
+}
+
+.card{
+    /* border: 2px solid red;     */
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card_item{
+    padding: 3em;
+}
+
+.card_left{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card_middle{
+    background-color: hsl(184, 100%, 22%)
+}
+.card_right{
+    background-color: hsl(179, 100%, 13%)
+}
+
+.card_item h1{
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 0.5em;
+}
+
+.card_item p{
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.card_item img, .card_item p{
+    margin-bottom: 1em;
+}
+
+.card_item a{
+    display: inline-block;
+    background-color: hsl(0,0%, 100%);
+    padding: 0.75em 2.2em;
+    border-radius: 30px;
+    margin-top: 1em;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.card_left a{
+    color: hsl(31, 77%, 52%);
+}
+.card_middle a{
+    color: hsl(184, 100%, 22%);
+}
+.card_right a{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (min-width: 1080px) {
+    /* main{
+        height: 100vh;
+    } */
+    .card{
+        margin-top: 5.75em;
+        max-width: 1000px;
+        display: flex;
+    }
+    .card_item img, .card_item p{
+        margin-bottom: 1.5em;
+    }
+    .card_item a{
+        margin-top: 3.5em;
+        transition: all .25s ease-in;
+    }
+    .card_item a:hover{
+        background-color: transparent;
+        color: hsl(0,0%, 100%);
+        border: 2px solid hsl(0,0%, 100%);
+    }
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
