@@ -16,8 +16,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://product-preview-card-main-silk.vercel.app/](https://your-solution-url.com)
+- Live Site URL: [https://product-preview-card-main-silk.vercel.app/](https://your-live-site-url.com)
 
 ## My process
 
@@ -58,15 +56,9 @@ How awesome CSS flexbox is.
 I like the design of the card and would likely try to implement the idea in a future project
 
 
-### Useful resources
 
 ## Author
 
-- Website - [Ayaat](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Ayaat](https://product-preview-card-main-silk.vercel.app/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Yazeed-git)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
